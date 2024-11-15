@@ -9,18 +9,6 @@ variable "vpc_name" {
   default     = "example-vpc"
 }
 
-variable "access_key" {
-  description = "Provide the AWS Access key"
-  type        = string
-  sensitive   = true
-}
-
-variable "secret_key" {
-  description = "Provide the AWS Secret Key"
-  type        = string
-  sensitive   = true
-}
-
 variable "vpc_cidr" {
   description = "CIDR block for VPC"
   type        = string
